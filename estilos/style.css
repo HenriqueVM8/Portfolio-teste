@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*     Tirando a rolaagem      */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+html, body {
+
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+
+    background: url(../imagens/fundo-preto.jpg) center;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+}
+
+
+main{
+
+    height: 100vh;
+    position: relative;
+
+}
+
+#iphone{
+
+    height: 600px;
+    width: 250px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: url(../imagens/iphone.png) no-repeat center;
+    z-index: 1;
+}
+
+
+iframe#tela{
+
+    position: relative;
+    top: 8px;
+    left: 14px;
+
+    border-radius: 30px;
+
+    width: 223px;
+    height: 470px;
+}
+
+
+#buttomns{
+
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+#buttomns img{
+
+    width: 50px;
+    margin: 10px;
+
+    border-radius: 50%;
+
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.400);
+
+    box-sizing: border-box;
+}
+
+#buttomns img:hover{
+
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.400);
+
+    transform: translate(-3px, -3px);
+    transition: ease 0.2s;
+}

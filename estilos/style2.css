@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 100vw;
+    height: auto;
+}
+
+a {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    text-decoration: none;
+
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+
+    border-radius: 30px;
+
+    margin-left: 6.5%;
+    width: 150px;
+
+    font-size: 0.8rem;
+}
+
+a:hover {
+    background-color: rgba(121, 121, 121, 0.212);
+    color: white;
+
+    transition: ease 0.3s;
+}
