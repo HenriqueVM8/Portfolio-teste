@@ -69,7 +69,7 @@ iframe#tela{
 
     text-align: right;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     
 }
 
@@ -92,4 +92,16 @@ iframe#tela{
 
     transform: translate(-3px, -3px);
     transition: ease 0.2s;
+}
+
+
+@media (max-width: 768px) {
+
+    #buttomns{
+
+        margin-right: 10px;
+    
+    }
+
+
 }
